@@ -15,12 +15,12 @@ public class _Main {
         System.out.println("Type action");
         input.nextLine();
         String action = input.nextLine();
-        switch (action){
+        switch (action) {
             case "+":
-                result = Calculator.sum(num1,num2);
+                result = Calculator.sum(num1, num2);
                 break;
             case "-":
-                result = Calculator.subtract(num1,num2);
+                result = Calculator.subtract(num1, num2);
                 break;
             case "*":
                 result = Calculator.multiply(num1, num2);
